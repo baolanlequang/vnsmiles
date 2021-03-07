@@ -43,33 +43,33 @@ import Foundation
  */
 class Atom {
     
-    private var element: String
-    private var drawExplicit: Bool
-    private var ringbonds: [[NSNumber:String]]
-    private var rings: [NSNumber]
-    private var bondType: String
-    private var branchBond: String?
-    private var isBridge: Bool
-    private var isBridgeNode: Bool
-    private var originalRings: [NSNumber]
-    private var bridgedRing: NSNumber?
-    private var anchoredRings: [NSNumber]
-    private var bracket: Any?
-    private var plane: Int
-    private var attachedPseudoElements: [String: [String: Any]]
-    private var hasAttachedPseudoElements: Bool
-    private var isDrawn: Bool
-    private var isConnectedToRing: Bool
-    private var neighbouringElements: [String]
-    private var isPartOfAromaticRing: Bool
-    private var bondCount: NSNumber
-    private var chirality: String
-    private var isStereoCenter: Bool
-    private var priority: NSNumber
-    private var mainChain: Bool
-    private var hydrogenDirection: String
-    private var subtreeDepth: NSNumber
-    private var hasHydrogen: Bool
+    var element: String
+    var drawExplicit: Bool
+    var ringbonds: [[NSNumber:String]]
+    var rings: [NSNumber]
+    var bondType: String
+    var branchBond: String?
+    var isBridge: Bool
+    var isBridgeNode: Bool
+    var originalRings: [NSNumber]
+    var bridgedRing: NSNumber?
+    var anchoredRings: [NSNumber]
+    var bracket: Any?
+    var plane: Int
+    var attachedPseudoElements: [String: [String: Any]]
+    var hasAttachedPseudoElements: Bool
+    var isDrawn: Bool
+    var isConnectedToRing: Bool
+    var neighbouringElements: [String]
+    var isPartOfAromaticRing: Bool
+    var bondCount: NSNumber
+    var chirality: String
+    var isStereoCenter: Bool
+    var priority: NSNumber
+    var mainChain: Bool
+    var hydrogenDirection: String
+    var subtreeDepth: NSNumber
+    var hasHydrogen: Bool
     
     /**
        * The constructor of the class Atom.
