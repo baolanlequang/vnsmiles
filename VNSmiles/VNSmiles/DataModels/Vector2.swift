@@ -381,9 +381,11 @@ class Vector2 {
          *
          * @returns {Number} The square of the length of this vector.
          */
-        lengthSq() {
-            return (this.x * this.x) + (this.y * this.y);
-        }
+    func lengthSq() -> Double {
+        return (self.x * self.x) + (self.y * self.y)
+    }
+    
+    //TODO: add function here
     
     /**
          * Subtracts one vector from another and returns the result as a new vector.
